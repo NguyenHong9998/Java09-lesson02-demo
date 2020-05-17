@@ -1,3 +1,6 @@
 private int sub(int a, int b) {
-     return a - b;
+	if(a - b < INTEGER.MIN_VALUE){
+	return INTERGER.MINVALUE;
+	}
+         return a - b;
 }
